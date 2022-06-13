@@ -1,0 +1,84 @@
+/*Normalizar*/
+* {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 2em;
+    color: white;
+    margin-left: 100px;
+}
+.logo h2{
+    letter-spacing: 2px;
+}
+html, body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background: url('../img/fondo-popcorn.png');
+    height: 100vh;
+}
+nav img{
+    width: 50px|;
+    height: 50px;
+}
+nav a.logo{
+    display: inline-block;
+    line-height: 90px;
+    margin: left 33%; ;
+}
+header nav{
+    height: 90px;
+}
+nav .loguearse{
+    color:rgb(18, 1, 51);
+    float: right;
+    background-color: white;
+    line-height: normal;
+    margin-top: 18px;
+    margin-right: 3%;
+    padding: 7px 17px;
+    font-weight: 400   ;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.zona{
+    margin: 0 3%;
+    position: absolute;
+    top: 35%;
+    font-size: 1.8vw;
+}
+.titulo_zona{
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+}
+.subtitulo_zona{
+    margin: 0 0.5em;
+}
+.caja{
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(100% auto);
+    
+}
+.caja div{
+    background: rgb(9, 255, 0);
+    padding: 1em;
+}
+.caja div:hover{
+    border: 3px solid blueviolet;
+}
